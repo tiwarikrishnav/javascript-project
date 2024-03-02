@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{transition: 1s;}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 30rem;
+    /* height: 15rem; */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    display: block;
+}
